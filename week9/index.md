@@ -198,7 +198,7 @@ You can read and set the properties of an element using dot notation
 
 ```js
 var nameInput = document.querySelector('input[name="fname"]');
-if(nameInput.value.toUpperCase === 'MATT') {
+if(nameInput.value.toUpperCase === 'CAT') {
 	nameInput.value = 'Kutay';
 }
 ```
